@@ -1,0 +1,9 @@
+[package]
+name = "kronos-core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+kronos-physics = {path = "./kronos-physics"}
+kronos-math = {path = "./kronos-math"}
+kronos-grfxs = {path = "./kronos-grfxs"}

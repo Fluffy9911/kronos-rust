@@ -1,0 +1,9 @@
+[package]
+name = "kronos-math"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde_json = "1.0.151"
+serde = "1.0.229"
+num-traits = "0.2.19"
