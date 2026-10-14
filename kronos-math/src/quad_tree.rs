@@ -1,6 +1,6 @@
 use std::mem;
 use crate::box2d::Box2d;
-
+//the usize is an id for the object
 pub struct Tree {
     children: Option<Vec<Tree>>,
     nodes: Vec<(Box2d,usize)>,
@@ -41,7 +41,7 @@ impl Tree {
             {
                 for child in self.children.as_mut().unwrap()
                 {
-                    let inside =  child.is_inside(&bounds);
+                    let inside = child.is_inside(&bounds);
                     if inside {
                         child.append(bounds, id);
                         return;
@@ -72,12 +72,41 @@ impl Tree {
 
     }
 
-    pub fn closest(&self,check:&Box2d) -> &Box2d{
+    pub fn closest(&self, check: &Box2d) -> Option<&Box2d> {
+        let mut closest: Option<&Box2d> = None;
+        let mut closest_distance = f32::MAX;
 
-        if self.intersects
+        // Check objects stored at this node.
+        for (bounds, _) in &self.nodes {
+            let distance = bounds.distance_to(check);
 
+            if distance < closest_distance {
+                closest_distance = distance;
+                closest = Some(bounds);
+            }
+        }
 
+        // Search children.
+        if let Some(children) = &self.children {
+            for child in children {
+                // If the entire child is already farther away than
+                // our current closest object, skip it.
+                let child_distance = child.bounds.distance_to(check);
 
+                if child_distance <= closest_distance {
+                    if let Some(candidate) = child.closest(check) {
+                        let distance = candidate.distance_to(check);
+
+                        if distance < closest_distance {
+                            closest_distance = distance;
+                            closest = Some(candidate);
+                        }
+                    }
+                }
+            }
+        }
+
+        closest
     }
 
 }

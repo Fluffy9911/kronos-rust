@@ -87,4 +87,11 @@ impl Box2d {
     pub fn center(&self) -> Vec2 {
         Vec2::new(self.half_width_pos(),self.half_height_pos())
     }
+
+    pub fn distance_to(&self,other:&Box2d) -> f32 {
+
+         self.center().distance(&other.center()) as f32
+
+    }
+
 }

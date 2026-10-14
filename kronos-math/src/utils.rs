@@ -11,3 +11,9 @@ impl Pointable2D<f64> for Vec2 {
         (self.x, self.y)
     }
 }
+
+impl Pointable2D<f32> for Vec2 {
+    fn points(&self) -> (f32, f32) {
+        (self.x as f32, self.y as f32)
+    }
+}

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/kronos-math/Cargo.toml">
+      <package file="$PROJECT_DIR$/kronos-math">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml">
+      <package file="$PROJECT_DIR$">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b09af23a-be9b-43b3-9039-d6f429a553a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/kronos-rust.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kronos-grfxs/src/gl_helpers/helpers.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kronos-grfxs/src/gl_helpers/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kronos-grfxs/src/gl_testing.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-grfxs/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-grfxs/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-grfxs/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-grfxs/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-grfxs/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-grfxs/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-grfxs/target/debug/.fingerprint/kronos-grfxs-2d8ec70f3e08681f/dep-lib-kronos_grfxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-grfxs/target/debug/.fingerprint/kronos-grfxs-63fc0cf473eb333c/dep-test-lib-kronos_grfxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-grfxs/target/debug/incremental/kronos_grfxs-1tbkvl2445aix/s-hmr01ohak8-13wygh3-cdm1qnyxp49klq7m8hnw4j03o/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-grfxs/target/debug/incremental/kronos_grfxs-1tbkvl2445aix/s-hmr01ohak8-13wygh3-cdm1qnyxp49klq7m8hnw4j03o/metadata.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-grfxs/target/debug/incremental/kronos_grfxs-1tbkvl2445aix/s-hmr01ohak8-13wygh3-cdm1qnyxp49klq7m8hnw4j03o/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-grfxs/target/debug/incremental/kronos_grfxs-1tbkvl2445aix/s-hmr01ohak8-13wygh3-cdm1qnyxp49klq7m8hnw4j03o/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/src/box2d.rs" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/src/box2d.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/src/quad_tree.rs" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/src/quad_tree.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/src/utils.rs" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/src/utils.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/autocfg-c8c1dbebb63934e1/lib-autocfg.json" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/autocfg-c8c1dbebb63934e1/lib-autocfg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/kronos-math-3aeddbcfc65be82c/dep-test-lib-kronos_math" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/kronos-math-3aeddbcfc65be82c/dep-test-lib-kronos_math" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/num-traits-40b2241def5980b7/run-build-script-build-script-build" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/num-traits-40b2241def5980b7/run-build-script-build-script-build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/serde-b159bc7474efd529/lib-serde.json" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/serde-b159bc7474efd529/lib-serde.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/serde_core-35e11b5094b984c7/lib-serde_core" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/serde_core-35e11b5094b984c7/lib-serde_core" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/serde_json-55bd09b8f658a923/lib-serde_json.json" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/serde_json-55bd09b8f658a923/lib-serde_json.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/serde_json-ab291245cea4c5cd/run-build-script-build-script-build.json" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/serde_json-ab291245cea4c5cd/run-build-script-build-script-build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/zmij-2de583c924c6a9c2/run-build-script-build-script-build" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/.fingerprint/zmij-2de583c924c6a9c2/run-build-script-build-script-build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/build/num-traits-bd722598fafa7766/build_script_build-bd722598fafa7766.d" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/build/num-traits-bd722598fafa7766/build_script_build-bd722598fafa7766.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/build/serde-b9408f6733000661/build_script_build-b9408f6733000661.d" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/build/serde-b9408f6733000661/build_script_build-b9408f6733000661.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/build/serde-b9408f6733000661/build_script_build-b9408f6733000661.exe" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/build/serde-b9408f6733000661/build_script_build-b9408f6733000661.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_core-8e3b9ac6a44fdc7d/out/private.rs" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_core-8e3b9ac6a44fdc7d/out/private.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_core-8e3b9ac6a44fdc7d/root-output" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_core-8e3b9ac6a44fdc7d/root-output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_core-ff17e79ef3111436/build_script_build-ff17e79ef3111436.d" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_core-ff17e79ef3111436/build_script_build-ff17e79ef3111436.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_core-ff17e79ef3111436/build_script_build-ff17e79ef3111436.exe" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_core-ff17e79ef3111436/build_script_build-ff17e79ef3111436.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_json-ab291245cea4c5cd/output" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_json-ab291245cea4c5cd/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_json-ab291245cea4c5cd/root-output" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_json-ab291245cea4c5cd/root-output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_json-c4597c9f811c0db4/build_script_build.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/build/serde_json-c4597c9f811c0db4/build_script_build.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/build/zmij-2de583c924c6a9c2/root-output" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/build/zmij-2de583c924c6a9c2/root-output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/build/zmij-bda505b2fc1d5d10/build_script_build-bda505b2fc1d5d10.d" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/build/zmij-bda505b2fc1d5d10/build_script_build-bda505b2fc1d5d10.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/build/zmij-bda505b2fc1d5d10/build_script_build-bda505b2fc1d5d10.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/build/zmij-bda505b2fc1d5d10/build_script_build-bda505b2fc1d5d10.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/deps/autocfg-c8c1dbebb63934e1.d" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/deps/autocfg-c8c1dbebb63934e1.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/deps/libautocfg-c8c1dbebb63934e1.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/deps/libautocfg-c8c1dbebb63934e1.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/deps/libautocfg-c8c1dbebb63934e1.rmeta" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/deps/libautocfg-c8c1dbebb63934e1.rmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/deps/libitoa-120546458fa616c5.rmeta" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/deps/libitoa-120546458fa616c5.rmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/deps/libkronos_math-6ad3d4d8206f580b.rmeta" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/deps/libkronos_math-6ad3d4d8206f580b.rmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/deps/libmemchr-5fd4b56ed1c23079.rmeta" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/deps/libmemchr-5fd4b56ed1c23079.rmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/deps/libserde_json-55bd09b8f658a923.rmeta" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/deps/libserde_json-55bd09b8f658a923.rmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/deps/libzmij-bc178b051a99e913.rmeta" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/deps/libzmij-bc178b051a99e913.rmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/deps/num_traits-2d875d56014cdc86.d" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/deps/num_traits-2d875d56014cdc86.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/deps/serde_core-35e11b5094b984c7.d" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/deps/serde_core-35e11b5094b984c7.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/deps/serde_json-55bd09b8f658a923.d" beforeDir="false" afterPath="$PROJECT_DIR$/kronos-math/target/debug/deps/serde_json-55bd09b8f658a923.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/incremental/kronos_math-0i85u8s8zeoxq/s-hmt8x9ba9r-0k75nk4-working/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/incremental/kronos_math-0i85u8s8zeoxq/s-hmt8x9ba9r-0k75nk4-working/dep-graph.part.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kronos-math/target/debug/incremental/kronos_math-2y5qf2lbi8zzo/s-hmt8x9qgzi-107bhm5-working/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Fluffy9911&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Fluffy9911/kronos-rust.git&quot;,
+    &quot;accountId&quot;: &quot;45e8c547-a6cb-484e-b027-842515759031&quot;
+  }
+}</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="cJp1QcNX" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.6128817464396303E-5" />
+      <entry key="MS500" value="0.11467128165068739" />
+      <entry key="S2" value="0.8387001307673484" />
+      <entry key="S5" value="1.4827769192636473" />
+      <entry key="S10" value="2.149624218918217" />
+      <entry key="S30" value="4.4631905920127215" />
+      <entry key="S60" value="9.914496455377243" />
+      <entry key="M2" value="21.972318843139202" />
+      <entry key="M5" value="50.74292020283806" />
+      <entry key="M10" value="98.0825866570209" />
+      <entry key="M15" value="148.0185599842497" />
+      <entry key="M30" value="274.95527251802156" />
+      <entry key="H1" value="418.8787813904199" />
+      <entry key="H2" value="535.8224324705197" />
+      <entry key="H4" value="612.3049987614048" />
+      <entry key="D1" value="688.2527799865868" />
+      <entry key="W1" value="702.5731785787458" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000016836533576" />
+      <entry key="S5" value="1.0162624983409925" />
+      <entry key="S10" value="1.2376237412692728" />
+      <entry key="S30" value="3.1577694684811815" />
+      <entry key="S60" value="5.414011869620313" />
+      <entry key="M2" value="7.886195573136282" />
+      <entry key="M5" value="11.446141510647685" />
+      <entry key="M10" value="16.964827287637736" />
+      <entry key="M15" value="23.702339550918033" />
+      <entry key="M30" value="42.49618175169727" />
+      <entry key="H1" value="64.45670514337468" />
+      <entry key="H2" value="82.11658176331822" />
+      <entry key="H4" value="93.47432594157446" />
+      <entry key="D1" value="104.57651852883572" />
+      <entry key="W1" value="106.6493751553292" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.003424241117899154" />
+      <entry key="MS500" value="0.3318509222347674" />
+      <entry key="S2" value="1.2870037907447802" />
+      <entry key="S5" value="2.180069723443331" />
+      <entry key="S10" value="3.184194887807389" />
+      <entry key="S30" value="7.4506212636487925" />
+      <entry key="S60" value="15.16285839285472" />
+      <entry key="M2" value="29.716640067850495" />
+      <entry key="M5" value="62.085650937905385" />
+      <entry key="M10" value="114.95975130836136" />
+      <entry key="M15" value="171.63575831017437" />
+      <entry key="M30" value="317.3718207578068" />
+      <entry key="H1" value="483.2735718756723" />
+      <entry key="H2" value="617.8990324946699" />
+      <entry key="H4" value="705.7564066620137" />
+      <entry key="D1" value="792.824999304045" />
+      <entry key="W1" value="809.2219267330158" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3KCImPzBKR0qpTmrUL3HwXE6xYE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Run kronos-core.executor": "Run",
+    "Cargo.Run kronos-grfxs.executor": "Run",
+    "CidrDebugProfileConversion": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.first.attach.projects": "true",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Cargo.Run kronos-core">
+    <configuration name="Run kronos-core" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package kronos-core --bin kronos-core" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run kronos-grfxs" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="dev" />
+      <option name="command" value="run --package kronos-grfxs --bin kronos-grfxs" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run kronos-core" />
+        <item itemvalue="Cargo.Run kronos-grfxs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b09af23a-be9b-43b3-9039-d6f429a553a9" name="Changes" comment="" />
+      <created>1791055282776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791055282776</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -3,4 +3,7 @@ name = "kronos-grfxs"
 version = "0.1.0"
 edition = "2024"
 
+
 [dependencies]
+gl = "0.14.0"
+glfw = { version = "0.63.0", default-features = false, features = ["prebuilt-libs","native-handles"] }

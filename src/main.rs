@@ -1,3 +1,9 @@
+use kronos_grfxs::{gl_testing, grfxs};
+use kronos_math::vec2;
+use vec2::Vec2;
 fn main() {
-    println!("Hello, world!");
+gl_testing::main();
+
+
+
 }
